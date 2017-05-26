@@ -6,19 +6,19 @@
 </head>
 <body>
 	<form  action="https://formspree.io/nebraska994@gmail.com" method="post">
-		<label for="imie">Imię:</label><br/>
+		<label id="imie" for="imie">Imię:</label><br/>
 		<input type="text" name="imie" id="imie"/><br/>
 		
-		<label for="nazwisko">Nazwisko:</label><br/>
+		<label id="nazwisko" for="nazwisko">Nazwisko:</label><br/>
 		<input type="text" name="nazwisko" id="nazwisko"/><br/>
 		
-		<label for="email">Email:</label><br/>
+		<label id="email" for="email">Email:</label><br/>
 		<input type="email" name="email" id="email"/><br>
 		
-		<label for="telefon">Numer telefonu:</label><br/>
+		<label id="telefon" for="telefon">Numer telefonu:</label><br/>
 		<input type="text" name="telefon" id="telefon"/><br/>
 		
-		<label for="miasto">Miasto:</label><br/>
+		<label id="miasto" for="miasto">Miasto:</label><br/>
 		<select name="miasto">
 			<option value="wybierz">Wybierz</option>
 			<option value="krakow">Kraków</option>
@@ -26,32 +26,20 @@
 			<option value="gdansk">Gdańsk</option>
 		</select><br/>
 		
-		<label for="plec">Płeć:</label><br/>
+		<label id="plec" for="plec">Płeć:</label><br/>
 		<input type="radio" name="plec" value="kobieta"/>Kobieta<br/>
 		<input type="radio" name="plec" value="mezczyzna"/>Mężczyzna<br/>
 		<input type="radio" name="plec" value="inna"/>Inna<br/>
 		
-		<label for="zgoda">Wyrażam zgodę na:</label><br/>
+		<label id="zgoda" for="zgoda">Wyrażam zgodę na:</label><br/>
 		<input type="checkbox" name="zgoda dane osobowe"/>Przetwarzanie moich danych osobowych w celu weryfikacji uczestników szkolenia Front-End Developer.<br/>
-		<input type="checkbox" name="zgoda dane osobowe + newsletter"/>Przetwarzanie moich danych osobowych w celu weryfikacji uczestników szkolenia Front-End Developer oraz otrzymywania Newsletera z nowymi kursami.<br/>
+		<input id="zgoda2" type="checkbox" name="zgoda dane osobowe + newsletter"/>Przetwarzanie moich danych osobowych w celu weryfikacji uczestników szkolenia Front-End Developer oraz otrzymywania Newsletera z nowymi kursami.<br/>
 		
-		<label for="wiadomosc">Wiadomość:</label><br>
+		<label id="wiadomość" for="wiadomosc">Wiadomość:</label><br>
 		<textarea type="text" name="wiadomosc" id="Wiadomosc" rows="20" cols="60"></textarea><br/>
 		
 		<input type="submit" value="Wyślij" onclick="alert('Dziękujemy za wypełnienie formularza, wkrótce się z tobą skontaktujemy.')"/>
 		<input type="reset">
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	</form>
 	
