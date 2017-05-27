@@ -26,20 +26,20 @@
 			<option value="gdansk">Gdańsk</option>
 		</select><br/>
 		
-		<label for="plec">Płeć:</label><br/>
+		<p>Płeć:</p><br/>
 		<label for="kobieta">Kobieta</label><br/>
-		<input type="radio" name="kobieta" value="kobieta" id="kobieta"/><br/>
+		<input type="radio" name="plec" value="kobieta" id="kobieta"/><br/>
 		<label for="mezczyzna">Mężczyzna</label><br/>
-		<input type="radio" name="mezczyzna" value="mezczyzna" id="mezczyzna"/><br/>
-		<label for="Inna">Inna</label><br/>
-		<input type="radio" name="inna" value="inna" id="Inna"/><br/>
+		<input type="radio" name="plec" value="mezczyzna" id="mezczyzna"/><br/>
+		<label for="inna">Inna</label><br/>
+		<input type="radio" name="plec" value="inna" id="inna"/><br/>
 		
 		<label for="zgoda">Wyrażam zgodę na:</label><br/>
-		<input type="checkbox" name="zgoda dane osobwe"/>Przetwarzanie moich danych osobowych w celu weryfikacji uczestników szkolenia Front-End Developer.<br/>
+		<input type="checkbox" name="zgoda_dane_osobwe" id="zgoda" />Przetwarzanie moich danych osobowych w celu weryfikacji uczestników szkolenia Front-End Developer.<br/>
 		<input type="checkbox" name="zgoda dane osobowe newsletter"/>Przetwarzanie moich danych osobowych w celu weryfikacji uczestników szkolenia Front-End Developer oraz otrzymywania Newsletera z nowymi kursami.<br/>
 		
 		<label for="wiadomosc">Wiadomość:</label><br>
-		<textarea type="text" name="wiadomosc" id="wiadomosc" rows="20" cols="60"></textarea><br/>
+		<textarea name="wiadomosc" id="wiadomosc" rows="20" cols="60"></textarea><br/>
 		
 		<input type="submit" value="Wyślij" onclick="alert('Dziękujemy za wypełnienie formularza, wkrótce się z tobą skontaktujemy.')"/>
 		<input type="reset">
